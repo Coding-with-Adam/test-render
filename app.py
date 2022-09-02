@@ -15,6 +15,7 @@ else:
     background_callback_manager = DiskcacheManager(cache)
 
 app = dash.Dash(__name__, background_callback_manager=background_callback_manager)
+server = app.server
 
 app.layout = html.Div([
     html.Div([html.P(id="paragraph_id", children=["Button not clicked"])]),
