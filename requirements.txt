@@ -1,4 +1,4 @@
 dash==2.6.1
 gunicorn
 diskcache
-dash[diskcache]
+dash[diskcache]==2.6.1
