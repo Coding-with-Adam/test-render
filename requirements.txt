@@ -1,4 +1,7 @@
+celery==5.2.7
 dash==2.6.1
-dash[diskcache]==2.6.1
+diskcache==5.4.0
 gunicorn
-diskcache
+pandas
+dash-tools
+dash[diskcache]==2.6.1
