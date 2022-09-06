@@ -3,5 +3,4 @@ dash==2.6.1
 diskcache==5.4.0
 gunicorn
 pandas
-dash-tools
 dash[diskcache]==2.6.1
